@@ -1,0 +1,400 @@
+> t=c(2, 3, 5, 4, 2, 2, 2, 4, 5, 6, 1, 1, 1)
+> hist(t)
+> install.packages("UsingR")
+Installing package into ‘C:/Users/grade/Documents/R/win-library/3.3’
+(as ‘lib’ is unspecified)
+also installing the dependencies ‘colorspace’, ‘mime’, ‘dichromat’, ‘munsell’, ‘labeling’, ‘assertthat’, ‘stringi’, ‘evaluate’, ‘highr’, ‘markdown’, ‘yaml’, ‘backports’, ‘jsonlite’, ‘digest’, ‘plyr’, ‘reshape2’, ‘scales’, ‘tibble’, ‘lazyeval’, ‘RColorBrewer’, ‘stringr’, ‘knitr’, ‘magrittr’, ‘checkmate’, ‘htmlwidgets’, ‘Rcpp’, ‘survival’, ‘Formula’, ‘ggplot2’, ‘latticeExtra’, ‘acepack’, ‘gtable’, ‘gridExtra’, ‘data.table’, ‘htmlTable’, ‘viridis’, ‘htmltools’, ‘base64enc’, ‘HistData’, ‘Hmisc’
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/colorspace_1.3-2.zip'
+Content type 'application/zip' length 442383 bytes (432 KB)
+downloaded 432 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/mime_0.5.zip'
+Content type 'application/zip' length 37483 bytes (36 KB)
+downloaded 36 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/dichromat_2.0-0.zip'
+Content type 'application/zip' length 147728 bytes (144 KB)
+downloaded 144 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/munsell_0.4.3.zip'
+Content type 'application/zip' length 133966 bytes (130 KB)
+downloaded 130 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/labeling_0.3.zip'
+Content type 'application/zip' length 40914 bytes (39 KB)
+downloaded 39 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/assertthat_0.1.zip'
+Content type 'application/zip' length 44761 bytes (43 KB)
+downloaded 43 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/stringi_1.1.2.zip'
+Content type 'application/zip' length 14264524 bytes (13.6 MB)
+downloaded 13.6 MB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/evaluate_0.10.zip'
+Content type 'application/zip' length 47604 bytes (46 KB)
+downloaded 46 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/highr_0.6.zip'
+Content type 'application/zip' length 35887 bytes (35 KB)
+downloaded 35 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/markdown_0.7.7.zip'
+Content type 'application/zip' length 167655 bytes (163 KB)
+downloaded 163 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/yaml_2.1.14.zip'
+Content type 'application/zip' length 179373 bytes (175 KB)
+downloaded 175 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/backports_1.0.5.zip'
+Content type 'application/zip' length 27851 bytes (27 KB)
+downloaded 27 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/jsonlite_1.3.zip'
+Content type 'application/zip' length 1123018 bytes (1.1 MB)
+downloaded 1.1 MB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/digest_0.6.12.zip'
+Content type 'application/zip' length 172751 bytes (168 KB)
+downloaded 168 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/plyr_1.8.4.zip'
+Content type 'application/zip' length 1188580 bytes (1.1 MB)
+downloaded 1.1 MB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/reshape2_1.4.2.zip'
+Content type 'application/zip' length 571920 bytes (558 KB)
+downloaded 558 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/scales_0.4.1.zip'
+Content type 'application/zip' length 676139 bytes (660 KB)
+downloaded 660 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/tibble_1.2.zip'
+Content type 'application/zip' length 620188 bytes (605 KB)
+downloaded 605 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/lazyeval_0.2.0.zip'
+Content type 'application/zip' length 139672 bytes (136 KB)
+downloaded 136 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/RColorBrewer_1.1-2.zip'
+Content type 'application/zip' length 26706 bytes (26 KB)
+downloaded 26 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/stringr_1.2.0.zip'
+Content type 'application/zip' length 148658 bytes (145 KB)
+downloaded 145 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/knitr_1.15.1.zip'
+Content type 'application/zip' length 1004475 bytes (980 KB)
+downloaded 980 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/magrittr_1.5.zip'
+Content type 'application/zip' length 149741 bytes (146 KB)
+downloaded 146 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/checkmate_1.8.2.zip'
+Content type 'application/zip' length 557483 bytes (544 KB)
+downloaded 544 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/htmlwidgets_0.8.zip'
+Content type 'application/zip' length 848606 bytes (828 KB)
+downloaded 828 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/Rcpp_0.12.9.zip'
+Content type 'application/zip' length 3247193 bytes (3.1 MB)
+downloaded 3.1 MB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/survival_2.41-2.zip'
+Content type 'application/zip' length 5251588 bytes (5.0 MB)
+downloaded 5.0 MB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/Formula_1.2-1.zip'
+Content type 'application/zip' length 163536 bytes (159 KB)
+downloaded 159 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/ggplot2_2.2.1.zip'
+Content type 'application/zip' length 2760769 bytes (2.6 MB)
+downloaded 2.6 MB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/latticeExtra_0.6-28.zip'
+Content type 'application/zip' length 2069504 bytes (2.0 MB)
+downloaded 2.0 MB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/acepack_1.4.1.zip'
+Content type 'application/zip' length 91242 bytes (89 KB)
+downloaded 89 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/gtable_0.2.0.zip'
+Content type 'application/zip' length 57592 bytes (56 KB)
+downloaded 56 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/gridExtra_2.2.1.zip'
+Content type 'application/zip' length 483334 bytes (472 KB)
+downloaded 472 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/data.table_1.10.4.zip'
+Content type 'application/zip' length 1502201 bytes (1.4 MB)
+downloaded 1.4 MB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/htmlTable_1.9.zip'
+Content type 'application/zip' length 223252 bytes (218 KB)
+downloaded 218 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/viridis_0.3.4.zip'
+Content type 'application/zip' length 1746406 bytes (1.7 MB)
+downloaded 1.7 MB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/htmltools_0.3.5.zip'
+Content type 'application/zip' length 582774 bytes (569 KB)
+downloaded 569 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/base64enc_0.1-3.zip'
+Content type 'application/zip' length 38394 bytes (37 KB)
+downloaded 37 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/HistData_0.8-1.zip'
+Content type 'application/zip' length 476163 bytes (465 KB)
+downloaded 465 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/Hmisc_4.0-2.zip'
+Content type 'application/zip' length 1787613 bytes (1.7 MB)
+downloaded 1.7 MB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/UsingR_2.0-5.zip'
+Content type 'application/zip' length 2078729 bytes (2.0 MB)
+downloaded 2.0 MB
+
+package ‘colorspace’ successfully unpacked and MD5 sums checked
+package ‘mime’ successfully unpacked and MD5 sums checked
+package ‘dichromat’ successfully unpacked and MD5 sums checked
+package ‘munsell’ successfully unpacked and MD5 sums checked
+package ‘labeling’ successfully unpacked and MD5 sums checked
+package ‘assertthat’ successfully unpacked and MD5 sums checked
+package ‘stringi’ successfully unpacked and MD5 sums checked
+package ‘evaluate’ successfully unpacked and MD5 sums checked
+package ‘highr’ successfully unpacked and MD5 sums checked
+package ‘markdown’ successfully unpacked and MD5 sums checked
+package ‘yaml’ successfully unpacked and MD5 sums checked
+package ‘backports’ successfully unpacked and MD5 sums checked
+package ‘jsonlite’ successfully unpacked and MD5 sums checked
+package ‘digest’ successfully unpacked and MD5 sums checked
+package ‘plyr’ successfully unpacked and MD5 sums checked
+package ‘reshape2’ successfully unpacked and MD5 sums checked
+package ‘scales’ successfully unpacked and MD5 sums checked
+package ‘tibble’ successfully unpacked and MD5 sums checked
+package ‘lazyeval’ successfully unpacked and MD5 sums checked
+package ‘RColorBrewer’ successfully unpacked and MD5 sums checked
+package ‘stringr’ successfully unpacked and MD5 sums checked
+package ‘knitr’ successfully unpacked and MD5 sums checked
+package ‘magrittr’ successfully unpacked and MD5 sums checked
+package ‘checkmate’ successfully unpacked and MD5 sums checked
+package ‘htmlwidgets’ successfully unpacked and MD5 sums checked
+package ‘Rcpp’ successfully unpacked and MD5 sums checked
+package ‘survival’ successfully unpacked and MD5 sums checked
+package ‘Formula’ successfully unpacked and MD5 sums checked
+package ‘ggplot2’ successfully unpacked and MD5 sums checked
+package ‘latticeExtra’ successfully unpacked and MD5 sums checked
+package ‘acepack’ successfully unpacked and MD5 sums checked
+package ‘gtable’ successfully unpacked and MD5 sums checked
+package ‘gridExtra’ successfully unpacked and MD5 sums checked
+package ‘data.table’ successfully unpacked and MD5 sums checked
+package ‘htmlTable’ successfully unpacked and MD5 sums checked
+package ‘viridis’ successfully unpacked and MD5 sums checked
+package ‘htmltools’ successfully unpacked and MD5 sums checked
+package ‘base64enc’ successfully unpacked and MD5 sums checked
+package ‘HistData’ successfully unpacked and MD5 sums checked
+package ‘Hmisc’ successfully unpacked and MD5 sums checked
+package ‘UsingR’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\grade\AppData\Local\Temp\RtmpoDz2Rj\downloaded_packages
+> install.packages("MASS")
+Installing package into ‘C:/Users/grade/Documents/R/win-library/3.3’
+(as ‘lib’ is unspecified)
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.3/MASS_7.3-45.zip'
+Content type 'application/zip' length 1090378 bytes (1.0 MB)
+downloaded 1.0 MB
+
+package ‘MASS’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\grade\AppData\Local\Temp\RtmpoDz2Rj\downloaded_packages
+> library(UsingR)
+Loading required package: MASS
+Loading required package: HistData
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, round.POSIXt, trunc.POSIXt, units
+
+
+Attaching package: ‘UsingR’
+
+The following object is masked from ‘package:survival’:
+
+    cancer
+
+Warning messages:
+1: package ‘UsingR’ was built under R version 3.3.3 
+2: package ‘MASS’ was built under R version 3.3.3 
+3: package ‘HistData’ was built under R version 3.3.3 
+4: package ‘Hmisc’ was built under R version 3.3.3 
+5: package ‘survival’ was built under R version 3.3.3 
+6: package ‘Formula’ was built under R version 3.3.2 
+7: package ‘ggplot2’ was built under R version 3.3.3 
+> data("movies")
+> data(movies)
+> movies
+                            title current previous gross
+1  Pearl Harbor (TO)                 29.6     75.2 118.9
+2  Shrek (DW)                        28.2     55.2 148.4
+3  The Animal (CO)                   19.6       NA  19.6
+4  Moulin Rouge (20)                 13.7      0.3  14.4
+5  What's the Worst that... (MGM)    13.0       NA  13.0
+6  The Mummy Returns (UN)             7.8     19.0 181.2
+7  A Knight's Tale (CO)               3.4      9.1  49.4
+8  Bridget Jones's Diary (MM)         2.0      4.2  65.4
+9  Angel Eyes (WB)                    1.9      6.2  21.7
+10 Momento (Newmarket Films)          1.0      1.9  15.8
+11 Along Came a Spider (PA)           0.7      2.1  71.8
+12 Spy Kids (DI)                      0.4      1.3 105.9
+13 Blow (NL)                          0.4      1.3  52.2
+14 Driven (WB)                        0.3      1.2  31.8
+15 O'Brother, Where Art... (TS)       0.3      0.3  44.2
+16 Crocodile Dundee in L.A. (PA)      0.3      1.0  24.3
+17 The Tailor of Panama (CO)          0.3      0.7  12.9
+18 Crouching Tiger...Dragon (SC)      0.3      0.5 127.2
+19 Save the Last Dance (PA)           0.2      0.5  90.2
+20 The Golden Bowl (LG)               0.2      0.5   1.5
+21 With a Friend Like Harry (MM)      0.2      0.4   1.8
+22 Traffic (USA)                      0.1      0.4 123.8
+23 Castaway (20)                      0.1      0.2 233.2
+24 Startup.com (AR)                   0.1      0.2   0.5
+25 Amores Perros (Lions Gate)         0.1      0.3   4.8
+26 Kingdom Come (FS)                  0.1      0.4  22.7
+> names(movies)
+[1] "title"    "current"  "previous" "gross"   
+> attach(movies)
+> boxplot(current,,main="current receipts",horizontal=TRUE)
+Error in boxplot.default(current, , main = "current receipts", horizontal = TRUE) : 
+  argument is missing, with no default
+> boxplot(current)
+> boxplot(gross, horizontal =TRUE)
+> View(movies)
+> ls()
+[1] "movies" "t"     
+> attack(movies)
+Error: could not find function "attack"
+> attach(movies)
+The following objects are masked from movies (pos = 3):
+
+    current, gross, previous, title
+
+> ls()
+[1] "movies" "t"     
+> ls(movies)
+[1] "current"  "gross"    "previous" "title"   
+> simple.hist.and.boxplot(current)
+> x = c(.314,.289,.282,.279,.275,.267,.266,.265,.256,.250,.249,.211,.161)
+> > tmp = hist(x) # store the results
+Error: unexpected '>' in ">"
+> > lines(c(min(tmp$breaks),tmp$mids,max(tmp$breaks)),c(0,tmp$counts,0),type="l")
+Error: unexpected '>' in ">"
+> 
+> tmp=hist(current)
+> lines(c(min(tmp$breaks),tmp$mids,max(tmp$breaks)),c(0,tmp$counts,0),type="l")
+> data(faithful)
+> attach(faithful)
+> hist(aruptions, 15, prob=T)
+Error in hist(aruptions, 15, prob = T) : object 'aruptions' not found
+> hist(eruptions, 15, prob=T)
+> lines(density(eruptions))
+> lines(density(eruptions, bw="SJ"), col='red')
+> x=rnorm(100)
+> y=rnorm(100)
+> hist(x)
+> lines(density(x))
+> hist(y)
+> lines(density(y))
+> 
+> hist(x)
+> lines(density(x))
+> lines(density((y), col='blue'))
+Warning message:
+In density.default((y), col = "blue") :
+ extra argument ‘col’ will be disregarded 
+> lines(density(y), col='red')
+> lines(density(x), bw="SJ")
+Warning message:
+In plot.xy(xy.coords(x, y), type = type, ...) :
+  "bw" is not a graphical parameter
+> lines(density(x, bw="SJ"))
+Warning messages:
+1: "bw" is not a graphical parameter 
+2: "bw" is not a graphical parameter 
+> 
+> 
+> table(smokers, amount)
+Error in table(smokers, amount) : object 'smokers' not found
+In addition: Warning messages:
+1: "bw" is not a graphical parameter 
+2: "bw" is not a graphical parameter 
+> smokes = c("Y","N","N","Y","N","Y","Y","Y","N","Y")
+> amount = c(1,2,2,3,3,1,2,1,3,2)
+> 
+> table(smokes, amount)
+      amount
+smokes 1 2 3
+     N 0 2 2
+     Y 3 2 1
+> tmp=table(smokes, amount)
+> old.digits=options("digits")
+> options(digtits=3)
+> prop.table(tmp, 1)
+      amount
+smokes         1         2         3
+     N 0.0000000 0.5000000 0.5000000
+     Y 0.5000000 0.3333333 0.1666667
+> tmp=table(smokes, amount)
+> options(digits=3)
+> prop.table(tmp, 1)
+      amount
+smokes     1     2     3
+     N 0.000 0.500 0.500
+     Y 0.500 0.333 0.167
+> barchart(table(smokers, amount))
+Error in table(smokers, amount) : object 'smokers' not found
+> barchart(table(smokes, amount))
+barchart(table(smokes, amount))
+> 
+> barchart(table(smokes, amount), main ="No name", col="rainbow")
+> barchart(table(smokes, amount), main ="No name", col = c("red", "blue"), beside=TRUE, horizontal=FALSE)
+> barplot(table(smokes,amount),
++         + beside=TRUE, # put beside not stacked
+Error: unexpected '=' in:
+"barplot(table(smokes,amount),
+        + beside="
+>         + legend.text=T) # add legend
+Error: unexpected ')' in "        + legend.text=T)"
+> barplot(table(smokes,amount), beside=TRUE,  legend.text=T) 
+> 
+par(2, 2)
+[[1]]
+NULL
+
+[[2]]
+NULL
+
+> #pishe se predi da dse napravqt grafikite i sluji za vbroq grafuiki na red 
