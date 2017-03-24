@@ -1,0 +1,208 @@
+> x = c(5, 5, 5, 13, 7, 11, 11, 9, 8, 9)
+> y = c(11, 8, 4, 5, 9, 5, 10, 5, 4, 10)
+> boxplot(x,y)
+> library(UsingR)
+Loading required package: MASS
+Loading required package: HistData
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, round.POSIXt, trunc.POSIXt, units
+
+
+Attaching package: ‘UsingR’
+
+The following object is masked from ‘package:survival’:
+
+    cancer
+
+Warning messages:
+1: package ‘UsingR’ was built under R version 3.3.3 
+2: package ‘MASS’ was built under R version 3.3.3 
+3: package ‘HistData’ was built under R version 3.3.3 
+4: package ‘Hmisc’ was built under R version 3.3.3 
+5: package ‘survival’ was built under R version 3.3.3 
+6: package ‘Formula’ was built under R version 3.3.2 
+7: package ‘ggplot2’ was built under R version 3.3.3 
+> attach(iris)
+> boxplot([, 1], [, 2], [, 3], [, 4])
+Error: unexpected '[' in "boxplot(["
+> boxplot(iris[, 1], iris[, 2], iris[, 3], iris[, 4])
+> # ili inache napisano boxplot(iris$Sepal.Length, iris$Sepal# .Width, iris$Sepal.Length, iris$Sepal.Width)
+> boxplot(iris$Sepal.Length ~ iris$Species)
+> factor(species)
+Error in factor(species) : object 'species' not found
+> factor(Species)
+  [1] setosa     setosa     setosa     setosa    
+  [5] setosa     setosa     setosa     setosa    
+  [9] setosa     setosa     setosa     setosa    
+ [13] setosa     setosa     setosa     setosa    
+ [17] setosa     setosa     setosa     setosa    
+ [21] setosa     setosa     setosa     setosa    
+ [25] setosa     setosa     setosa     setosa    
+ [29] setosa     setosa     setosa     setosa    
+ [33] setosa     setosa     setosa     setosa    
+ [37] setosa     setosa     setosa     setosa    
+ [41] setosa     setosa     setosa     setosa    
+ [45] setosa     setosa     setosa     setosa    
+ [49] setosa     setosa     versicolor versicolor
+ [53] versicolor versicolor versicolor versicolor
+ [57] versicolor versicolor versicolor versicolor
+ [61] versicolor versicolor versicolor versicolor
+ [65] versicolor versicolor versicolor versicolor
+ [69] versicolor versicolor versicolor versicolor
+ [73] versicolor versicolor versicolor versicolor
+ [77] versicolor versicolor versicolor versicolor
+ [81] versicolor versicolor versicolor versicolor
+ [85] versicolor versicolor versicolor versicolor
+ [89] versicolor versicolor versicolor versicolor
+ [93] versicolor versicolor versicolor versicolor
+ [97] versicolor versicolor versicolor versicolor
+[101] virginica  virginica  virginica  virginica 
+[105] virginica  virginica  virginica  virginica 
+[109] virginica  virginica  virginica  virginica 
+[113] virginica  virginica  virginica  virginica 
+[117] virginica  virginica  virginica  virginica 
+[121] virginica  virginica  virginica  virginica 
+[125] virginica  virginica  virginica  virginica 
+[129] virginica  virginica  virginica  virginica 
+[133] virginica  virginica  virginica  virginica 
+[137] virginica  virginica  virginica  virginica 
+[141] virginica  virginica  virginica  virginica 
+[145] virginica  virginica  virginica  virginica 
+[149] virginica  virginica 
+Levels: setosa versicolor virginica
+> #pravi kategoriite -> factor(Species) 
+
+ttach(home)
+> data(home)
+> attach(home)
+The following objects are masked from home (pos = 3):
+
+    new, old
+
+> names(home)
+[1] "old" "new"
+> boxplot(scale(old), scale(new))
+Warning message:
+In if (use.cols) { :
+  the condition has length > 1 and only the first element will be used
+> detach(home)
+> stripchart(scale(old), scale(new))
+Error in stripchart.default(scale(old), scale(new)) : 
+  invalid plotting method
+> 
+> library(UsingR)
+> data(home)
+> attach(home)
+The following objects are masked from home (pos = 3):
+
+    new, old
+
+> names(home)
+[1] "old" "new"
+> stripchart(old)
+> stripchart(new)
+> stripchart(old, new)
+Error in stripchart.default(old, new) : invalid plotting method
+> stripchart(scale(old), scale(new))
+Error in stripchart.default(scale(old), scale(new)) : 
+  invalid plotting method
+> stripchart(old)
+> 
+> stripchart(scale(old))
+> stripchart(scale(new))
+> home
+      old    new
+1   64200 257500
+2   72100 276800
+3   87600 364600
+4   59000 160400
+5   83200 333500
+6   49100 145600
+7   79600 350200
+8   69300 205200
+9   93100 599300
+10 105400 514400
+11  74500 309700
+12 105900 437000
+13  82600 306400
+14  77800 354400
+15  77200 324800
+> stripchart(home)
+> stripchart(scale(home))
+> scaterplot(scale(name))
+Error: could not find function "scaterplot"
+> plot(old, new)
+> plot(scale(old, new))
+Error in scale.default(old, new) : 
+  length of 'center' must equal the number of columns of 'x'
+> plot(old, new)
+> cor(old, new)
+[1] 0.8806976
+> data(home)
+> attach(home)
+The following objects are masked from home (pos = 3):
+
+    new, old
+
+The following objects are masked from home (pos = 4):
+
+    new, old
+
+> plot(old, new)
+> abline(lm(new~old))
+> x=old
+> y=new
+> simple.lm(x, y)
+
+Call:
+lm(formula = y ~ x)
+
+Coefficients:
+(Intercept)            x  
+ -2.121e+05    6.879e+00  
+
+> home
+      old    new
+1   64200 257500
+2   72100 276800
+3   87600 364600
+4   59000 160400
+5   83200 333500
+6   49100 145600
+7   79600 350200
+8   69300 205200
+9   93100 599300
+10 105400 514400
+11  74500 309700
+12 105900 437000
+13  82600 306400
+14  77800 354400
+15  77200 324800
+> -2.121e+05+6.879e+00*93000
+[1] 427647
+> -2.121e+05+6.879e+00*93100
+[1] 428334.9
+> coef(lm.res)[1]+coef(lm.res)[2]*93000
+Error in coef(lm.res) : object 'lm.res' not found
+> lm.res=simple.lm(x, y)
+> coef(lm.res)
+  (Intercept)             x 
+-2.121158e+05  6.879161e+00 
+> coef(lm.res)[1] 
+(Intercept) 
+  -212115.8 
+> coef(lm.res)[1] + coef(lm.res)[2] *93000
+(Intercept) 
+   427646.1 
+> coef(lm.res)[1] + coef(lm.res)[2]*93100
+(Intercept) 
+   428334.1 
